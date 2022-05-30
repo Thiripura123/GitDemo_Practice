@@ -12,7 +12,8 @@ public class Login {
 		//Define webdriver
 		WebDriver driver ;
 		driver=Utilities.DriverFactory.open(browsertype);	
-			
+		
+				
 			//2.Navigate to the web application
 			driver.get("https://login.wordpress.org/?redirect_to=https%3A%2F%2Fwordpress.org%2F&locale=en_US");
 			
